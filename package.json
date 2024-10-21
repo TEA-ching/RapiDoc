@@ -1,5 +1,5 @@
 {
-  "name": "rapidoc",
+  "name": "@sctg/rapidoc",
   "version": "9.3.8",
   "description": "RapiDoc - Open API spec viewer with built in console",
   "author": "Mrinmoy Majumdar <mrin9@yahoo.com>",
@@ -79,5 +79,9 @@
   },
   "engines": {
     "node": ">=18.16.0"
+  },
+  "publishConfig": {
+    "tag": "latest",
+    "access": "public"
   }
 }
